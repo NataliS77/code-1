@@ -67,6 +67,7 @@ margin-bottom: 40px;
 
 .news__title{
      margin-bottom: 10px;
+     margin-top: 10px;
 
     font-weight: 500;
     font-size: 17px;
@@ -107,8 +108,21 @@ margin-bottom: 40px;
     flex-wrap: wrap;
     gap: 14px;
 }
-.skin-tupe__item:hover, .skin-tupe__item:focus{
-    
+//.img{
+    //margin-bottom: 20px;
+
+//}
+.news__titles{
+    margin-top: 20px;
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.18;
+        color: #000000;
+        text-transform: uppercase;
+&:focus,
+&:hover{
+    color: violet;
+}
 }
 
 .popular__list{
