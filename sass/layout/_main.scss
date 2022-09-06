@@ -1,0 +1,29 @@
+.hero{
+padding-top: 200px;
+    padding-bottom: 200px;
+    min-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--main-bg-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../../images/—pngtree—cosmetic-pink-background-simple-literary_914316-1180x430.jpg);
+    background-size: cover;
+}
+
+.hero__title{
+    width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    
+        color: #000;
+    
+        font-weight: 900;
+        font-size: 36px;
+        line-height: calc(42/30);
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
